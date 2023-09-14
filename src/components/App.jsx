@@ -1,15 +1,9 @@
-import Products from "./ProductList";
-import Container from '@mui/material/Container';
-import Nav from "./NavBar";
+import Shop from "./Shop";
+import Home from "./Home";
 
 function App(){
     return(
-        <>
-            <Nav></Nav>
-            <Container maxWidth="md">
-                <Products></Products>
-            </Container>
-        </>
+        <Shop></Shop>
     )
 }
 
